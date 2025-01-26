@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #01032a;
+  color:#01032a;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.container::-webkit-scrollbar {
+  display: none; 
+}
+.Feedback-btn{
+  background-color: #fbff06;
+  position:absolute;
+  bottom: 10%;
+  right: 3%;
+  width:20%;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  color: black;
+  margin:0.5rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s;
+}

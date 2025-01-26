@@ -1,0 +1,59 @@
+.modal-content {
+    background-color: #01032a;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px #15015333;
+  }
+
+.modal-content h2 {
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  .modal-content p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: gray;
+  }
+ 
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  .cancel-btn {
+    background-color: #ccc;
+    width: 50%;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin:0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+.cancel-btn:hover {
+    background-color: #999;
+  }
+  
+
+  .submit-btn {
+    background-color: #f44336;
+    width:50%;
+    border: none;
+    color: white;
+    margin:0.5rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #d32f2f;
+  }
+  
